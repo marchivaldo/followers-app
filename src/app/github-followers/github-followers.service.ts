@@ -8,8 +8,8 @@ export class GithubFollowersService {
 
   constructor(private http: Http) {  }
 
-  getFollowers() { 
-    return this.http.get(this._url)
+  getFollowers() {
+         return this.http.get(this._url)
       .map(response => response.json());
   }
 }

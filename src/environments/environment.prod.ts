@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+   production: false,
+   navBarBackgroundColor: 'white',
+   navHomeName: 'Home'
 };
